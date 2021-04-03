@@ -6,15 +6,15 @@ namespace Transform;
 
 use Jira\JiraIssue;
 
-class SprintStatsTransformerTest extends \AbstractTestCase
+class ListTransformerTest extends \AbstractTestCase
 {
 
-    /** @var \Transform\SprintStatsTransformer */
-    private $sprintStatsTransformer;
+    /** @var \Transform\ListTransformer */
+    private $listTransformer;
 
     protected function setUp(): void
     {
-        $this->sprintStatsTransformer = new SprintStatsTransformer();
+        $this->listTransformer = new ListTransformer();
     }
 
     /**
@@ -24,7 +24,7 @@ class SprintStatsTransformerTest extends \AbstractTestCase
     {
         self::assertEquals(
             $expectedResult,
-            $this->sprintStatsTransformer->transform($issueInput)
+            $this->listTransformer->transform($issueInput)
         );
     }
 
@@ -35,7 +35,7 @@ class SprintStatsTransformerTest extends \AbstractTestCase
                 [
                     new JiraIssue(
                         'DRV-1',
-                        'sprint 1',
+                        'sprint 11',
                         'Franta',
                         'Tomáš',
                         1
@@ -87,44 +87,6 @@ class SprintStatsTransformerTest extends \AbstractTestCase
                             'assignedIssues' => [],
                             'shippedAmount' => 4,
                             'shippedIssues' => ['DRV-0'],
-                        ],
-                        'Kristýna' => [
-                            'assignedAmount' => 0,
-                            'assignedIssues' => [],
-                            'shippedAmount' => 0,
-                            'shippedIssues' => [],
-                        ],
-                        'Marie' => [
-                            'assignedAmount' => 0,
-                            'assignedIssues' => [],
-                            'shippedAmount' => 0,
-                            'shippedIssues' => [],
-                        ],
-                    ],
-                    'sprint 1' => [
-                        'undefined_assignee' => [
-                            'assignedAmount' => 0,
-                            'assignedIssues' => [],
-                            'shippedAmount' => 0,
-                            'shippedIssues' => [],
-                        ],
-                        'undefined_reviewer' => [
-                            'assignedAmount' => 0,
-                            'assignedIssues' => [],
-                            'shippedAmount' => 0,
-                            'shippedIssues' => [],
-                        ],
-                        'Franta' => [
-                            'assignedAmount' => 1,
-                            'assignedIssues' => ['DRV-1'],
-                            'shippedAmount' => 0,
-                            'shippedIssues' => [],
-                        ],
-                        'Tomáš' => [
-                            'assignedAmount' => 0,
-                            'assignedIssues' => [],
-                            'shippedAmount' => 1,
-                            'shippedIssues' => ['DRV-1'],
                         ],
                         'Kristýna' => [
                             'assignedAmount' => 0,
@@ -211,6 +173,44 @@ class SprintStatsTransformerTest extends \AbstractTestCase
                         'Marie' => [
                             'assignedAmount' => 3,
                             'assignedIssues' => ['DRV-3'],
+                            'shippedAmount' => 0,
+                            'shippedIssues' => [],
+                        ],
+                    ],
+                    'sprint 11' => [
+                        'undefined_assignee' => [
+                            'assignedAmount' => 0,
+                            'assignedIssues' => [],
+                            'shippedAmount' => 0,
+                            'shippedIssues' => [],
+                        ],
+                        'undefined_reviewer' => [
+                            'assignedAmount' => 0,
+                            'assignedIssues' => [],
+                            'shippedAmount' => 0,
+                            'shippedIssues' => [],
+                        ],
+                        'Franta' => [
+                            'assignedAmount' => 1,
+                            'assignedIssues' => ['DRV-1'],
+                            'shippedAmount' => 0,
+                            'shippedIssues' => [],
+                        ],
+                        'Tomáš' => [
+                            'assignedAmount' => 0,
+                            'assignedIssues' => [],
+                            'shippedAmount' => 1,
+                            'shippedIssues' => ['DRV-1'],
+                        ],
+                        'Kristýna' => [
+                            'assignedAmount' => 0,
+                            'assignedIssues' => [],
+                            'shippedAmount' => 0,
+                            'shippedIssues' => [],
+                        ],
+                        'Marie' => [
+                            'assignedAmount' => 0,
+                            'assignedIssues' => [],
                             'shippedAmount' => 0,
                             'shippedIssues' => [],
                         ],

@@ -32,7 +32,7 @@ class JiraIssue
         return $this->id;
     }
 
-    public function getSprintKey(): ?string
+    public function getSprintKey(): string
     {
         return $this->sprintKey;
     }
@@ -42,9 +42,9 @@ class JiraIssue
         return $this->sprintKey !== null;
     }
 
-    public function getAssignee(): ?string
+    public function getAssignee(): string
     {
-        return $this->assignee;
+        return str_replace(' ', '_', $this->assignee);
     }
 
     public function hasAssignee(): bool
@@ -52,9 +52,9 @@ class JiraIssue
         return $this->assignee !== null;
     }
 
-    public function getReviewer(): ?string
+    public function getReviewer(): string
     {
-        return $this->reviewer;
+        return str_replace(' ', '_', $this->reviewer);
     }
 
     public function hasReviewer(): bool
@@ -62,7 +62,7 @@ class JiraIssue
         return $this->reviewer !== null;
     }
 
-    public function getStoryPoints(): ?float
+    public function getStoryPoints(): float
     {
         return $this->storyPoints;
     }

@@ -4,6 +4,9 @@ declare(strict_types = 1);
 
 use Api\JiraClient;
 use Jira\JiraIssueSerializer;
+use Transform\ListTransformer;
+use Transform\TsvMatrixTransformer;
+use Transform\TsvTransformer;
 
 class Main
 {
@@ -11,33 +14,64 @@ class Main
 
     private JiraClient $jiraClient;
     private JiraIssueSerializer $jiraIssueSerializer;
+    private ListTransformer $listTransformer;
+    private TsvTransformer $tsvTransformer;
+    private TsvMatrixTransformer $matrixTransformer;
 
     public function __construct(
         JiraClient $jiraClient,
-        JiraIssueSerializer $jiraIssueSerializer
+        JiraIssueSerializer $jiraIssueSerializer,
+        ListTransformer $listTransformer,
+        TsvTransformer $tsvTransformer,
+        TsvMatrixTransformer $matrixTransformer
     )
     {
         $this->jiraClient = $jiraClient;
         $this->jiraIssueSerializer = $jiraIssueSerializer;
+        $this->listTransformer = $listTransformer;
+        $this->tsvTransformer = $tsvTransformer;
+        $this->matrixTransformer = $matrixTransformer;
     }
 
-    public function run(string $jiraCompany, string $userEmail, string $apiToken)
+    public function run(string $jiraCompany, string $userEmail, string $apiToken, string $output)
     {
-        var_dump($jiraCompany);
-        var_dump($userEmail);
-        var_dump($apiToken);
+        $issues = $this->getJiraIssues($jiraCompany, $userEmail, $apiToken);
 
+        if ($output === 'tsv') {
+            $data = $this->tsvTransformer->transform($issues);
+            foreach ($data as $dataRow) {
+                echo implode("\t", $dataRow);
+                echo "\n";
+            }
+        }
+
+        if ($output === 'matrix') {
+            $data = $this->matrixTransformer->transform($issues);
+
+            $firstSetKey = array_key_first($data);
+
+            echo 'sprint name' . "\t";
+            foreach ($data[$firstSetKey] as $header => $value) {
+                echo $header . "\t";
+            }
+            echo "\n";
+
+            foreach ($data as $sprint => $dataRow) {
+                echo $sprint . "\t";
+                echo implode("\t", $dataRow);
+                echo "\n";
+            }
+        }
+
+        if ($output === 'list') {
+            $data = $this->listTransformer->transform($issues);
+            echo json_encode($data, JSON_PRETTY_PRINT);
+        }
+    }
+
+    private function getJiraIssues(string $jiraCompany, string $userEmail, string $apiToken): array
+    {
         $page = 0;
-        $issues = $this->getJiraIssues($jiraCompany, $userEmail, $apiToken, $page);
-
-
-
-        var_dump(json_encode($sprintPerformance));
-
-    }
-
-    private function getJiraIssues(string $jiraCompany, string $userEmail, string $apiToken, int $page): array
-    {
         $issues = [];
 
         while (true) {
