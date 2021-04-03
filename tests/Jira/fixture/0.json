@@ -1,0 +1,7 @@
+{
+  "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+  "id": "10582",
+  "self": "https://company.atlassian.net/rest/api/latest/issue/10582",
+  "key": "DRV-583",
+  "fields": {}
+}

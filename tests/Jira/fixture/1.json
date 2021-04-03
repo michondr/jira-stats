@@ -1,0 +1,238 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10566",
+  "self": "https://company.atlassian.net/rest/api/latest/issue/10566",
+  "key": "DRV-567",
+  "fields": {
+    "statuscategorychangedate": "2021-04-01T13:58:24.300+0200",
+    "issuetype": {
+      "self": "https://company.atlassian.net/rest/api/2/issuetype/10001",
+      "id": "10001",
+      "description": "Functionality or a feature expressed as a user goal.",
+      "iconUrl": "https://company.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10315,
+      "entityId": "0641b37a-acd3-4a79-9194-61ce07e0965e",
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": null,
+    "project": {
+      "self": "https://company.atlassian.net/rest/api/2/project/10000",
+      "id": "10000",
+      "key": "DRV",
+      "name": "Driveto",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://company.atlassian.net/secure/projectavatar?pid=10000&avatarId=10551",
+        "24x24": "https://company.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10551",
+        "16x16": "https://company.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10551",
+        "32x32": "https://company.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10551"
+      }
+    },
+    "fixVersions": [],
+    "aggregatetimespent": null,
+    "resolution": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": true
+    },
+    "watches": {
+      "self": "https://company.atlassian.net/rest/api/2/issue/DRV-567/watchers",
+      "watchCount": 2,
+      "isWatching": true
+    },
+    "lastViewed": "2021-04-03T18:33:47.724+0200",
+    "created": "2021-03-26T10:34:03.368+0100",
+    "customfield_10020": [
+      {
+        "id": 35,
+        "name": "DRIV Sprint 27",
+        "state": "active",
+        "boardId": 1,
+        "goal": "",
+        "startDate": "2021-04-01T07:10:59.891Z",
+        "endDate": "2021-04-07T16:00:00.000Z"
+      }
+    ],
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "priority": {
+      "self": "https://company.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://company.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10023": null,
+    "customfield_10024": "2021-03-31T11:14:54.699+0200",
+    "customfield_10025": null,
+    "labels": [],
+    "customfield_10016": 2.0,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|i00234:",
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=bar",
+      "accountId": "foo",
+      "emailAddress": "ondrej.silny@example.cz",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/32"
+      },
+      "displayName": "Ondra Silný",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "updated": "2021-04-01T14:19:51.518+0200",
+    "status": {
+      "self": "https://company.atlassian.net/rest/api/2/status/10003",
+      "description": "",
+      "iconUrl": "https://company.atlassian.net/",
+      "name": "Ready for Review",
+      "id": "10003",
+      "statusCategory": {
+        "self": "https://company.atlassian.net/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": "",
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "customfield_10015": null,
+    "timetracking": {},
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10008": null,
+    "aggregatetimeestimate": null,
+    "attachment": [],
+    "customfield_10009": null,
+    "summary": "GPS nájezdy pro předchozí SPZ",
+    "creator": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=foo",
+      "accountId": "foo",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/32"
+      },
+      "displayName": "Honza Mladý",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=foo",
+      "accountId": "foo",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/32"
+      },
+      "displayName": "Honza Mladý",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=OPEN, stateCount=1}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":1,\"lastUpdated\":\"2021-04-01T14:19:40.000+0200\",\"stateCount\":1,\"state\":\"OPEN\",\"dataType\":\"pullrequest\",\"open\":true},\"byInstanceType\":{\"githube\":{\"count\":1,\"name\":\"GitHub Enterprise\"}}}}},\"isStale\":false}}",
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [
+        {
+          "self": "https://company.atlassian.net/rest/api/2/issue/10566/comment/10189",
+          "id": "10189",
+          "author": {
+            "self": "https://company.atlassian.net/rest/api/2/user?accountId=bar",
+            "accountId": "foo",
+            "emailAddress": "ondrej.silny@example.cz",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/32"
+            },
+            "displayName": "Ondra Silný",
+            "active": true,
+            "timeZone": "Europe/Prague",
+            "accountType": "atlassian"
+          },
+          "body": "",
+          "updateAuthor": {
+            "self": "https://company.atlassian.net/rest/api/2/user?accountId=bar",
+            "accountId": "foo",
+            "emailAddress": "ondrej.silny@example.cz",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/4cc1ef3a-1787-4863-9ae8-db97956f5956/32"
+            },
+            "displayName": "Ondra Silný",
+            "active": true,
+            "timeZone": "Europe/Prague",
+            "accountType": "atlassian"
+          },
+          "created": "2021-03-31T11:14:54.699+0200",
+          "updated": "2021-03-31T11:14:54.699+0200",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://company.atlassian.net/rest/api/2/issue/10566/comment",
+      "maxResults": 1,
+      "total": 1,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://company.atlassian.net/rest/api/2/issue/DRV-567/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}

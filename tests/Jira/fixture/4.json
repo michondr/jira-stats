@@ -1,0 +1,219 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10557",
+  "self": "https://company.atlassian.net/rest/api/latest/issue/10557",
+  "key": "DRV-558",
+  "fields": {
+    "statuscategorychangedate": "2021-03-23T20:48:52.490+0100",
+    "issuetype": {
+      "self": "https://company.atlassian.net/rest/api/2/issuetype/10003",
+      "id": "10003",
+      "description": "A problem or error.",
+      "iconUrl": "https://company.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "entityId": "d28fbb1a-2c07-47bd-a97a-6f7a5f129113",
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": null,
+    "project": {
+      "self": "https://company.atlassian.net/rest/api/2/project/10000",
+      "id": "10000",
+      "key": "DRV",
+      "name": "Driveto",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://company.atlassian.net/secure/projectavatar?pid=10000&avatarId=10551",
+        "24x24": "https://company.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10551",
+        "16x16": "https://company.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10551",
+        "32x32": "https://company.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10551"
+      }
+    },
+    "fixVersions": [],
+    "aggregatetimespent": null,
+    "resolution": {
+      "self": "https://company.atlassian.net/rest/api/2/resolution/10000",
+      "id": "10000",
+      "description": "Work has been completed on this issue.",
+      "name": "Done"
+    },
+    "customfield_10029": [
+      {
+        "self": "https://company.atlassian.net/rest/api/2/user?accountId=70121%3A091ba2f0-5236-4946-a9b9-ffeacf817f32",
+        "accountId": "here",
+        "avatarUrls": {
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/a14803fc-180d-47cd-a45e-0b6d7cb049de/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/a14803fc-180d-47cd-a45e-0b6d7cb049de/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/a14803fc-180d-47cd-a45e-0b6d7cb049de/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/a14803fc-180d-47cd-a45e-0b6d7cb049de/32"
+        },
+        "displayName": "Michal Velký",
+        "active": true,
+        "timeZone": "Europe/Prague",
+        "accountType": "atlassian"
+      }
+    ],
+    "resolutiondate": "2021-03-23T20:48:52.487+0100",
+    "workratio": -1,
+    "watches": {
+      "self": "https://company.atlassian.net/rest/api/2/issue/DRV-558/watchers",
+      "watchCount": 1,
+      "isWatching": false
+    },
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": true
+    },
+    "lastViewed": "2021-04-03T18:43:15.410+0200",
+    "created": "2021-03-23T12:47:44.513+0100",
+    "customfield_10020": [
+      {
+        "id": 33,
+        "name": "DRIV Sprint 25",
+        "state": "closed",
+        "boardId": 1,
+        "goal": "",
+        "startDate": "2021-03-18T07:43:08.226Z",
+        "endDate": "2021-03-24T17:50:00.000Z",
+        "completeDate": "2021-03-25T09:06:20.460Z"
+      }
+    ],
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "priority": {
+      "self": "https://company.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://company.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10023": null,
+    "customfield_10024": null,
+    "customfield_10025": "10000_*:*_1_*:*_114763_*|*_10002_*:*_1_*:*_0_*|*_10004_*:*_1_*:*_1214_*|*_10003_*:*_1_*:*_1700362_*|*_10005_*:*_1_*:*_27051655",
+    "labels": [],
+    "customfield_10016": 0.5,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|i001z6:",
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=70121%3A0c6b1e81-eb61-4187-a79e-af280fe5a0e1",
+      "accountId": "here",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/32"
+      },
+      "displayName": "Tomáš Válčící",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "updated": "2021-03-23T20:48:52.644+0100",
+    "status": {
+      "self": "https://company.atlassian.net/rest/api/2/status/10002",
+      "description": "",
+      "iconUrl": "https://company.atlassian.net/",
+      "name": "Done",
+      "id": "10002",
+      "statusCategory": {
+        "self": "https://company.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": null,
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "timetracking": {},
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10008": null,
+    "attachment": [],
+    "customfield_10009": null,
+    "aggregatetimeestimate": null,
+    "summary": "Opravit assistance endpoint",
+    "creator": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=70121%3A0c6b1e81-eb61-4187-a79e-af280fe5a0e1",
+      "accountId": "here",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/32"
+      },
+      "displayName": "Tomáš Válčící",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=70121%3A0c6b1e81-eb61-4187-a79e-af280fe5a0e1",
+      "accountId": "here",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/here/93f65f32-f1ed-47bb-9118-60a9a6514587/32"
+      },
+      "displayName": "Tomáš Válčící",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":1,\"lastUpdated\":\"2021-03-23T13:17:49.000+0100\",\"stateCount\":1,\"state\":\"MERGED\",\"dataType\":\"pullrequest\",\"open\":false},\"byInstanceType\":{\"githube\":{\"count\":1,\"name\":\"GitHub Enterprise\"}}}}},\"isStale\":false}}",
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [],
+      "self": "https://company.atlassian.net/rest/api/2/issue/10557/comment",
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://company.atlassian.net/rest/api/2/issue/DRV-558/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}

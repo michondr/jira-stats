@@ -1,0 +1,214 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10081",
+  "self": "https://company.atlassian.net/rest/api/latest/issue/10081",
+  "key": "DRV-82",
+  "fields": {
+    "statuscategorychangedate": "2020-10-07T07:49:33.779+0200",
+    "issuetype": {
+      "self": "https://company.atlassian.net/rest/api/2/issuetype/10001",
+      "id": "10001",
+      "description": "Functionality or a feature expressed as a user goal.",
+      "iconUrl": "https://company.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10315,
+      "entityId": "0641b37a-acd3-4a79-9194-61ce07e0965e",
+      "hierarchyLevel": 0
+    },
+    "parent": {
+      "id": "10077",
+      "key": "DRV-78",
+      "self": "https://company.atlassian.net/rest/api/2/issue/10077",
+      "fields": {
+        "summary": "Vystavování nabídek z CMD",
+        "status": {
+          "self": "https://company.atlassian.net/rest/api/2/status/10000",
+          "description": "",
+          "iconUrl": "https://company.atlassian.net/",
+          "name": "To Do",
+          "id": "10000",
+          "statusCategory": {
+            "self": "https://company.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "priority": {
+          "self": "https://company.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://company.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://company.atlassian.net/rest/api/2/issuetype/10004",
+          "id": "10004",
+          "description": "A collection of related bugs, stories, and tasks.",
+          "iconUrl": "https://company.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "c0fb5395-39ed-4570-99a8-4ab1e15b4fbd",
+          "hierarchyLevel": 1
+        }
+      }
+    },
+    "timespent": null,
+    "customfield_10030": null,
+    "project": {
+      "self": "https://company.atlassian.net/rest/api/2/project/10000",
+      "id": "10000",
+      "key": "DRV",
+      "name": "Driveto",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://company.atlassian.net/secure/projectavatar?pid=10000&avatarId=10551",
+        "24x24": "https://company.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10551",
+        "16x16": "https://company.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10551",
+        "32x32": "https://company.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10551"
+      }
+    },
+    "fixVersions": [],
+    "aggregatetimespent": null,
+    "resolution": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://company.atlassian.net/rest/api/2/issue/DRV-82/watchers",
+      "watchCount": 1,
+      "isWatching": false
+    },
+    "lastViewed": "2021-04-03T18:31:07.413+0200",
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": true
+    },
+    "created": "2020-10-07T07:49:33.469+0200",
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "customfield_10023": null,
+    "priority": {
+      "self": "https://company.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://company.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10024": null,
+    "customfield_10025": null,
+    "labels": [],
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|i0000e:zx0116i0000000001",
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": null,
+    "updated": "2021-04-01T09:30:21.358+0200",
+    "status": {
+      "self": "https://company.atlassian.net/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "https://company.atlassian.net/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "https://company.atlassian.net/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": null,
+    "description": "*V situaci:* \n*Co:* \n*Protože:* \n\n----\n\n*Akceptační kritéria:*\n\n* ...\n* ...\n* ...\n\n",
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "customfield_10015": null,
+    "timetracking": {},
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10008": null,
+    "aggregatetimeestimate": null,
+    "customfield_10009": null,
+    "attachment": [],
+    "summary": "Poskytovatelé - dostupnost",
+    "creator": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=foo",
+      "accountId": "foo",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/32"
+      },
+      "displayName": "Honza Mladý",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://company.atlassian.net/rest/api/2/user?accountId=foo",
+      "accountId": "foo",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/foo/330a8eaa-14e3-4c98-9bac-87d2ace59566/32"
+      },
+      "displayName": "Honza Mladý",
+      "active": true,
+      "timeZone": "Europe/Prague",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10000": "{}",
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [],
+      "self": "https://company.atlassian.net/rest/api/2/issue/10081/comment",
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://company.atlassian.net/rest/api/2/issue/DRV-82/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}
